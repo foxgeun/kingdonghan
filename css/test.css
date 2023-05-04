@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle {
+  height: 200px;
+
+  background: black;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.diagonal4 {
+    margin: 0;
+  width: 110%;
+  height: 5px;
+  background-color: yellow;
+  transform: rotate(10deg);
+} 
+
+
