@@ -175,3 +175,38 @@ header {
 .footer_about ul li {
   margin-top: 15px;
 }
+
+
+.main_div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.main_img_div{
+  width: 1000px;
+  height: 800px;
+  background-image: url(../images/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imfor {
+  margin-top: 100px;
+  background-color: #f9f8f9;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imfor_div{
+  display: flex;
+  
+  width: 1000px;
+  height: 100%;
+  border: 1px solid black;
+}
